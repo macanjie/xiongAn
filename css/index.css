@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100vh;
+	width: 100vh;
+}
+.header{
+	width: 10.04rem;
+	height: 1.27rem;
+	background-color: #fafafa;
+	left:0;
+	top:0;
+	position: relative;
+}
+.header .title{
+	width: 1rem;
+	height: 0.5rem;
+	font-family: "微软雅黑";
+	font-size: 0.45rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	position: absolute;
+	left: 4.53rem;
+	top:0.44rem;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.header .notice .noticeIcon{
+	background-image: url(../img/index/雄安实名制移动端_首页_03.png);
+	background-size: 100% 100%;
+	width: 0.56rem;
+	height: 0.57rem;
+	color: #6e6e6e;
+	position: absolute;
+	top: 0.26rem;
+	right: 0.34rem;
+}
+.header .notice .onIcon{
+	background-image: url(../img/index/雄安实名制移动端_首页_04_06.png);
+	background-size: 100% 100%;
+	width: 0.19rem;
+	height: 0.2rem;
+	color: #b22329;
+	position: absolute;
+	top: 0.24rem;
+	right: 0.33rem;
+}
+.header .notice .noticeTag{
+	width: auto;
+	height: 0.25rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.25rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #6e6e6e;	
+	position: absolute;
+	top: 0.87rem;
+	right: 0.37rem;
+	line-height: 0.25rem;
+}
+.swiper{
+	width: 10.04rem;
+	height: 4.62rem;
+	position: relative;
+	top: 0;
+	left: 0;
+	
+}
+.swiper .imgList{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.swiper .imgList .imgItem{
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+	position: absolute;
+	opacity: 0;
+	
+}
+.swiper .imgList .imgItem.active{
+	opacity: 1;
+}
+.swiper .imgList .imgItem .tag{
+	width: 5.78rem;
+	height: 0.84rem;
+	right: 0.23rem;
+	top: 2.36rem;
+	position: absolute;
+	background-size: 100% 100%;
+}
+.swiper .swiperCircle{
+	position: absolute;
+	display: flex;
+	top: 4.18rem;
+	right: 0.37rem;
+	width: 1.36rem;
+	height: 0.31rem;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.swiper .swiperCircle .circle{
+	width: 0.17rem;
+	height: 0.17rem;
+	border: solid 0.03rem #ffffff;
+	border-radius: 0.085rem;
+}
+.swiper .swiperCircle .circle.active{
+	width: 0.18rem;
+	height: 0.31rem;
+	background-image: url(../img/index/雄安实名制移动端_首页_07.png);
+	background-size: 100% 100%;
+	border: none;
+}
