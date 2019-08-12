@@ -1,0 +1,111 @@
+.header{
+	margin-bottom: 0.48rem;
+}
+.jobList{
+	width: 100%;
+	height: auto;
+}
+.jobList .item{
+	width: 9.54rem;
+	height: 2.59rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	position: relative;
+	margin:0 0.24rem 0.44rem 0.26rem;
+}
+.jobList .item .name{
+	width: auto;
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;	
+	position: absolute;
+	top: 0.42rem;
+	left: 0.39rem;
+	line-height: 1;
+}
+.jobList .item .company,.position{
+	width: auto;
+	height: 0.3rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737373;
+	position: absolute;
+	line-height: 1;
+}
+.jobList .item .company{
+	left: 0.39rem;
+	top: 1.11rem;
+}
+.jobList .item .position{
+	right: 5.22rem;
+	top: 1.11rem;
+	line-height: 1;
+}
+.jobList .item .icon{
+	width: 0.55rem;
+	height: 0.67rem;
+	background-image: url(../img/job/雄安实名制移动端_工作履历_详情_03.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0.36rem;
+	top: 0.25rem;
+}
+.jobList .item .separator{
+	width: 9.54rem;
+	height: 0.02rem;
+	background-color: #6e6e6e;
+	border-radius: 0.01rem;
+	position: absolute;
+	top: 1.73rem;
+	left: 0;
+}
+.jobList .item .date{
+	width: auto;
+	height: 0.26rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	position: absolute;
+	left: 0.43rem;
+	top: 2.07rem;
+	line-height: 1;
+}
+.jobList .item .detail{
+	width: auto;
+	height: 0.29rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #969696;
+	position: absolute;
+	right: 0.8rem;
+	bottom: 0.26rem;
+	line-height: 1;
+}
+.jobList .item .moreIcon{
+	width: 0.21rem;
+	height: 0.36rem;
+	background-image: url(../img/index/雄安实名制移动端_首页_11.png);	
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0.41rem;
+	bottom: 0.22rem;
+}
+
+
+
+.bottom .item .item.icon.active{
+	background-image: url(../img/job/雄安实名制移动端_工作履历_详情_07.png);
+}

@@ -1,0 +1,125 @@
+.itemList{
+	width: 10.04rem;
+	height: auto;
+}
+.itemList .item{
+	width: 9.54rem;
+	height: 3rem;
+	margin:0 0.25rem 0.6rem 0.25rem;
+	position: relative;
+}
+.itemList .item .date{
+	position: absolute;
+	top: 0;
+	left: 3.37rem;
+	width: auto;
+	height: 0.14rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.17rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	line-height: 1;
+}
+.itemList .item .detail{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 9.54rem;
+	height: 2.63rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	box-shadow: 0 0 0.05rem 0.05rem #eee;
+}
+.itemList .item .detail .name{
+	width: auto;
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	position: absolute;
+	top: 0.35rem;
+	left: 0.39rem;
+	line-height: 1;
+}
+.itemList .item .detail .tag{
+	width: auto;
+	height: 0.33rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.33rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	position: absolute;
+	top: 1.08rem;
+	left: 0.4rem;
+	line-height: 1;
+}
+.itemList .item .detail .iconTop{
+	width: 0.63rem;
+	height: 0.63rem;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.29rem;
+	right: 0.35rem;
+}
+.itemList .item .detail .separator{
+	width: 9.54rem;
+	height: 0.02rem;
+	background-color: #6e6e6e;
+	border-radius: 0.01rem;
+	position: absolute;
+	top: 1.69rem;
+	left: 0;
+}
+.itemList .item .detail .iconTeam{
+	width: 0.22rem;
+	height: 0.32rem;
+	background-size: 100% 100%;
+	background-image: url(../img/index_notice/雄安实名制移动端_工资列表_10.png);
+	position: absolute;
+	bottom: 0.31rem;
+	left: 0.4rem;
+}
+.itemList .item .detail .team{
+	width: auto;
+	height: 0.29rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	position: absolute;
+	bottom: 0.32rem;
+	left: 0.7rem;
+	line-height: 1;
+}
+.itemList .item .detail .more{
+	width: auto;
+	height: 0.29rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #969696;
+	line-height: 1;
+	position: absolute;
+	top: 2.01rem;
+	right: 0.95rem;
+}
+.itemList .item .detail .iconMore{
+	width: 0.21rem;
+	height: 0.36rem;
+	background-image: url(../img/index/雄安实名制移动端_首页_11.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.98rem;
+	right: 0.56rem;
+}

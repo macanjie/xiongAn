@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<script type="text/javascript" src="js/REM布局.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			#code{
+				width: 9.06rem;
+				height: 0.95rem;
+				background-color: #f7f7f7;
+				border-radius: 0.06rem;
+				border: solid 0.02rem #b5b5b5;
+				position: absolute;
+				left: 0.46rem;
+				top: 2.15rem;
+				display: flex;
+				align-items: center;
+				color: #949292;
+				font-size: 0.38rem;
+				padding-left: 0.23rem;
+				opacity:0.7;
+			}
+			.login{
+				width: 9.06rem;
+				height: 0.95rem;
+				background-color: #b22329;
+				border-radius: 0.06rem;
+				position: absolute;
+				left: 0.46rem;
+				top: 3.45rem;
+				font-size: 0.42rem;
+				color: #ffffff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.photo{
+				width: 9rem;
+				height: 1.71rem;
+				background-image: url(img/mine_login/雄安实名制移动端_登录页_03.png);
+				background-size: 100% 100%;
+				position: absolute;
+				left: 0.51rem;
+				bottom: 0.52rem;
+			}
+			#icon{
+				width: 0.43rem;
+				height: 0.43rem;
+				background-image: url(img/mine_login/雄安实名制移动端_登录页_03_07.png);
+				background-size: 100% 100%;
+				position: absolute;
+				right: 0.81rem;
+				top: 2.44rem;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<p class="title">确认验证码</p>
+		</div>
+		<input type="text" name="" id="code" value="" placeholder="请输入验证码"/>
+		<div class="login">确认并登录</div>
+		<div id="icon"></div>
+		<div class="photo"></div>
+		<script type="text/javascript">
+			var keycode = '123456'
+			var login = document.querySelector('.login')
+			var inputCode = document.querySelector('#code')
+			var icon = document.querySelector('#icon')
+			
+			login.onclick = function(){
+				if(code.value==keycode){
+					icon.style.display = 'block'
+					icon.style.backgroundImage = 'url(img/mine_login/雄安实名制移动端_登录页_07.png)'
+					setTimeout(function(){
+						location.href = 'mine.html'
+					},400)
+				}else{
+					icon.style.display = 'block'
+				}
+			}
+		</script>
+	</body>
+</html>

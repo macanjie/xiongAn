@@ -1,0 +1,361 @@
+.main{
+	width: 10.04rem;
+	height: 14.64rem;
+	margin: 0.5rem auto 0;
+	position: relative;
+	overflow: hidden;
+}
+.main .navigator{
+	width: 8rem;
+	height: 0.56rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	left:0.84rem;
+	overflow: hidden;
+}
+.main .navigator .underline{
+	width: 1.61rem;
+	height: 0.07rem;
+	background-color: #b22329;
+	border-radius: 0.04rem;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+}
+.main .navigator .option{
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	line-height: 1;
+}
+.main .pageList{
+	width: 10.04rem;
+	height: 13.2rem;
+	position: absolute;
+	top: 1.38rem;
+	left: 0;
+	overflow: hidden;
+}
+.main .pageList .page{
+	position: absolute;
+	width: 10.04rem;
+	height: 13.2rem;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 0 0.25rem;
+}
+.pageList #receive .itemList{
+	width: 9.54rem;
+	height: auto;
+	overflow: hidden;
+}
+.pageList #receive .itemList .item{
+	width: 9.54rem;
+	height: 2.59rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	position: relative;
+	margin-bottom: 0.64rem;
+	overflow: hidden;
+}
+.pageList #receive .itemList .item .evaluate{
+	width: auto;
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	position: absolute;
+	top: 0.42rem;
+	left: 0.39rem;
+	line-height: 1;
+}
+.pageList #receive .itemList .item .company{
+	width: auto;
+	height: 0.3rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737373;
+	position: absolute;
+	top: 1.11rem;
+	left: 0.39rem;
+	line-height: 1;
+}
+.pageList #receive .itemList .item .emoji{
+	width: 1.08rem;
+	height: 1.08rem;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.28rem;
+	right: 0.41rem;
+}
+.pageList #receive .itemList .item .separator{
+	width: 9.54rem;
+	height: 0.02rem;
+	background-color: #dcdcdc;
+	border-radius: 0.01rem;
+	position: absolute;
+	left: 0;
+	top: 1.73rem;
+}
+.pageList #receive .itemList .item .date{
+	width: auto;
+	height: 0.24rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	position: absolute;
+	left: 0.43rem;
+	bottom: 0.28rem;
+	line-height: 1;
+}
+.pageList #receive .add{
+	width: 1.67rem;
+	height: 1.67rem;
+	background-color: #b22329;
+	position: absolute;
+	left: 4.15rem;
+	top: 11.05rem;
+	border-radius: 0.835rem;
+}
+.pageList #receive .add .icon{
+	width: 0.77rem;
+	height: 0.77rem;
+	background-size: 100% 100%;
+	background-image: url(../img/evaluate/雄安实名制移动端_发起评价图_02.png);
+	position: absolute;
+	left: 0.45rem;
+	top: 0.44rem;
+}	
+
+
+.pageList #send .itemList{
+	width: 10.04rem;
+	height: auto;
+	overflow: hidden;
+}
+.pageList #send .itemList .item{
+	width: 9.54rem;
+	height: 4.61rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	position: relative;
+	margin-bottom: 0.79rem;
+	overflow: hidden;
+}
+.pageList #send .itemList .item .evaluate{
+	width: auto
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	line-height: 1;
+	position: absolute;
+	left: 0.39rem;
+	top: 0.42rem;
+}
+.pageList #send .itemList .item .company{
+	width: auto;
+	height: 0.3rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737373;
+	line-height: 1;
+	position: absolute;
+	left: 0.39rem;
+	top: 1.11rem;
+}
+.pageList #send .itemList .item .date{
+	width: auto;
+	height: 0.24rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	line-height: 1;
+	position: absolute;
+	left: 6.67rem;
+	top: 4.09rem;
+}
+.pageList #send .itemList .item .separator{
+	width: 9.54rem;
+	height: 0.02rem;
+	background-color: #6e6e6e;
+	border-radius: 0.01rem;
+	position: absolute;
+	left: 0rem;
+	top: 1.73rem;
+}
+.pageList #send .itemList .item .imgList{
+	position: absolute;
+	left: 0;
+	bottom: 0.77rem;
+	width: 6rem;
+	height: 1.62rem;
+}
+.pageList #send .itemList .item .img{
+	width: 1.73rem;
+	height: 1.62rem;
+	background-size: 100% 100% ;
+	position: absolute;
+}
+.pageList #send .itemList .item .img:nth-child(1){
+	left: 0.39rem;
+}
+.pageList #send .itemList .item .img:nth-child(2){
+	left: 2.35rem;
+}
+.pageList #send .itemList .item .control{
+	width: 0.46rem;
+	height: 0.64rem;
+	position: absolute;
+	background-size: 100% 100%;
+	right: 1.83rem;
+	top: 0.54rem;
+}
+.pageList #send .itemList .item .time{
+	width: auto;
+	height: 0.27rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.33rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	line-height: 1;
+	position: absolute;
+	right: 0.46rem;
+	top: 0.73rem;
+}
+.pageList #send .appendEva{
+	width: 3.81rem;
+	height: 0.86rem;
+	background-color: #b22329;
+	border-radius: 0.43rem;
+	position: absolute;
+	left: 2.865rem;
+	top: 11.25rem;
+}
+.pageList #send .appendEva .icon{
+	background-image: url(../img/evaluate/雄安实名制移动端_发起评价_18.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0.51rem;
+	top: 0.19rem;
+	width: 0.49rem;
+	height: 0.49rem;
+}
+.pageList #send .appendEva .text{
+	width: auto;
+	height: 0.41rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #ffffff;
+	line-height: 1;
+	position: absolute;
+	left: 1.34rem;
+	top: 0.24rem;
+}
+.pageList #law .text{
+	width: 7.97rem;
+	height: 1.04rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #5d5d5d;
+	position: absolute;
+	left: 0.95rem;
+	top: 0.53rem;
+	line-height: 1.5;
+}
+.pageList #law .consult{
+	position: absolute;
+	left: 3.09rem;
+	top: 2.55rem;
+	width: 3.81rem;
+	height: 0.86rem;
+	background-color: #b22329;
+	border-radius: 0.43rem;
+}
+.pageList #law .consult .tag{
+	width: auto;
+	height: 0.42rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #ffffff;
+	position: absolute;
+	left: 1.08rem;
+	top: 0.23rem;
+	line-height: 1;
+}
+@keyframes rightIn{
+	from{
+		transform: translateX(100%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+
+@keyframes leftOut{
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes leftIn{
+	from{
+		transform: translateX(-100%);
+	}
+	to{
+		transform: translateX(0);
+	}
+}
+
+@keyframes rightOut{
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(100%);
+	}
+}
+
+.bottom{
+	z-index: 50;
+}
+.bottom .item .item.icon.active{
+	background-image: url(../img/evaluate/雄安实名制移动端_收到的评价_14.png);
+}

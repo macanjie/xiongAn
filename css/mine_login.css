@@ -1,0 +1,130 @@
+body{
+	position: relative;
+}
+
+.home{
+	width: auto;
+	height: 0.74rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 0.75rem;
+	font-weight: 700;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	position: absolute;
+	left: 3.49rem;
+	top: 3.07rem;
+	line-height: 1;
+}
+.photo{
+	width: 9rem;
+	height: 1.71rem;
+	background-image: url(../img/mine_login/雄安实名制移动端_登录页_03.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0.51rem;
+	top: 5.32rem;
+}
+.tag{
+	width: auto;
+	height: 0.38rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #a92428;
+	position: absolute;
+	left: 0.68rem;
+	top: 10.41rem;
+	line-height: 1;
+	display: none;
+}
+input{
+	width: 9.06rem;
+	height: 0.95rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	border: solid 0.02rem #b5b5b5;
+	position: absolute;
+	padding: 0.3rem 0 0.28rem 0.23rem;
+	color: #949292;
+	font-size: 0.38rem;
+	opacity: 0.7;
+}
+#id{
+	left: 0.46rem;
+	top: 11.05rem;
+}
+#phoneNum{
+	left: 0.46rem;
+	top: 12.35rem;
+}
+.icon{
+	position: absolute;
+	background-size: 100% 100%;
+}
+#iconId{
+	top: 11.32rem;
+}
+#iconPhoneNum{
+	top: 12.64rem;
+}
+.icon.correct{
+	right: 0.75rem;
+	width: 0.55rem;
+	height: 0.45rem;
+	background-image: url(../img/mine_login/雄安实名制移动端_登录页_07.png)
+}
+.icon.wrong{
+	right: 0.81rem;
+	width: 0.43rem;
+	height: 0.43rem;
+	background-image: url(../img/mine_login/雄安实名制移动端_登录页_03_07.png);
+}
+.sendCode{
+	width: 9.06rem;
+	height: 0.95rem;
+	background-color: #b22329;
+	border-radius: 0.06rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.42rem;
+	color: #ffffff;
+	position: absolute;
+	left: 0.46rem;
+	top: 13.65rem;
+}
+.circle{
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	border: solid 0.03rem #b5b5b5;
+	position: absolute;
+	left: 0.46rem;
+	top: 15.23rem;
+}
+.circle.active .chosen{
+	width: 0.44rem;
+	height: 0.44rem;
+	background-color: #b22329;
+	border-radius: 0.22rem;
+	position: absolute;
+	left: 0.04rem;
+	top: 0.05rem;
+}
+.agree{
+	width: auto;
+	height: 0.38rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	position: absolute;
+	left: 1.16rem;
+	top: 15.35rem;
+	line-height: 1;
+}

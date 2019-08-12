@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/evaluate_appendEvaluate.css"/>
+		<script type="text/javascript" src="js/REM布局.js"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<div class="header">
+			<p class="title">我要评价</p>
+		</div>
+		
+		<div class="company">
+			<div class="icon"></div>
+			<div class="title">选择施工总包</div>
+			<input type="text" name="" id="company" value="广东建粤工程有限公司" placeholder="广东建粤工程有限公司"/>
+			<div class="moreIcon"></div>
+		</div>
+		
+		<div class="range">
+			<div class="icon"></div>
+			<div class="title">评价等级</div>
+			<div class="itemList">
+				<div class="item">
+					<div class="circle active" id='circle' data-index='0'>
+						<div class="chosen"></div>
+					</div>
+					<div class="evaluate">优秀</div>
+				</div>
+				<div class="item">
+					<div class="circle" id='circle' data-index='1'>
+						<div class="chosen"></div>
+					</div>
+					<div class="evaluate">良好</div>
+				</div>
+				<div class="item">
+					<div class="circle" id='circle' data-index='2'>
+						<div class="chosen"></div>
+					</div>
+					<div class="evaluate">差评</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main">
+			<div class="icon"></div>
+			<div class="title">评价内容</div>
+			<div class="content">
+				<textarea name="" rows="5" cols="100" id="content" placeholder="伙食很好，班组长对我很好，经常请我抽中华烟，贼鸡儿好评！" ></textarea>
+				<div class="camera"></div>
+				<div class="microphone"></div>
+			</div>
+			<div class="tools">
+				<div class="record">新的录音30秒</div>
+				<div class="img" id="img1"></div>
+				<div class="img" id="img2"></div>
+				<div class="add"></div>
+				<div class="cancel" id="can1"><div class="icon"></div></div>
+				<div class="cancel" id="can2"><div class="icon"></div></div>
+				<div class="cancel" id="can3"><div class="icon"></div></div>
+			</div>
+		</div>
+		
+		<a class="submit" href="evaluate.html#send">
+			<div class="icon"></div>
+			<div class="text">提交</div>
+		</a>
+		
+		<div class="bottom">
+			<a class="item index" href="index.html">
+				<div class="item icon"></div>
+				<div class="item tag">首页</div>
+			</a>
+			<a class="item job" href="job.html">
+				<div class="item icon"></div>
+				<div class="item tag">工作履历</div>
+			</a>
+			<a class="item evaluate">
+				<div class="item icon active"></div>
+				<div class="item tag active">用工评价</div>
+			</a>
+			<a class="item mine" href="mine.html">
+				<div class="item icon"></div>
+				<div class="item tag">我的</div>
+			</a>
+			
+			<script type="text/javascript">
+				var circleList = document.querySelectorAll('.circle')
+				var range = document.querySelector('.range')
+				range.onclick = function(e){
+					var arr = e.path.reverse()
+					if(arr[7].id=='circle'){
+						circleList.forEach(function(item,index){
+							item.className = 'circle'
+						})
+						circleList.forEach(function(item,index){
+							if(index==e.target.dataset.index){
+								item.className = 'circle active'
+							}else{
+								item.className = 'circle'
+							}
+						})
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>

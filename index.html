@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<script type="text/javascript" src="js/REM布局.js"></script>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
@@ -10,11 +11,11 @@
 	<body>
 		<div class="header">
 			<p class="title">首页</p>
-			<div class="notice">
+			<a class="notice" href="index_notice.html">
 				<div class="noticeIcon"></div>
 				<div class="onIcon"></div>
 				<p class="noticeTag">通知</p>
-			</div>
+			</a>
 		</div>
 		<div class="swiper">
 			<div class="imgList">
@@ -35,41 +36,78 @@
 			</div>
 		</div>
 		<div class="headline">
-			
+			<div class="textList">
+				<div class="text">头条：珠海今日港珠澳大桥通车，农民工兄弟有福了</div>
+				<div class="text">头条：农民工工资又要涨了吗</div>
+				<div class="text">头条：珠海今日港珠澳大桥通车，农民工兄弟有福了</div>
+				<div class="text">头条：农民工工资又要涨了吗</div>
+			</div>
 		</div>
 		<div class="safetyEducation">
 			<div class="safe top">
 				<div class="safe icon"></div>
-				<p class="safe tag"></p>
-				<div class="safe moreIcon"></div>
+				<p class="safe tag">安全教育培训</p>
+				<a class="safe moreIcon" href="index_safeEdu.html"></a>
 			</div>
-			<p class="safe text"></p>
+			<p class="safe text">请积极参与安全教育培训哦，答题赢大奖！</p>
 		</div>
 		<div class="salary">
 			<div class="sal top">
 				<div class="sal icon"></div>
-				<p class="sal tag"></p>
-				<div class="safe moreicon"></div>
+				<p class="sal tag">我的工资</p>
+				<a class="sal more" href="index_salary.html">更多</a>
+				<a class="sal moreIcon" href="index_salary.html"></a>
 			</div>
-			<p class="sal text"></p>
+			<div class="sal swiper">
+				<div class="sal left"></div>
+				<div class="sal swiperBox">
+					<div class="sal itemList">
+						<div class="sal item" data-index='0'>
+							<div class="sal date">2018-4</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+						<div class="sal item" data-index='1'>
+							<div class="sal date">2018-3</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+						<div class="sal item" data-index='2'>
+							<div class="sal date">2018-2</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+						<div class="sal item" data-index='3'>
+							<div class="sal date">2018-1</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+						<div class="sal item" data-index='4'>
+							<div class="sal date">2017-12</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+						<div class="sal item" data-index='5'>
+							<div class="sal date">2017-11</div>
+							<div class="sal money">7231.00元</div>
+						</div>
+					</div>
+				</div>
+				<div class="sal right"></div>
+			</div>
 		</div>
 		<div class="bottom">
-			<div class="index">
-				<div class="icon"></div>
-				<div class="tag"></div>
-			</div>
-			<div class="job">
-				<div class="icon"></div>
-				<div class="tag"></div>
-			</div>
-			<div class="evaluate">
-				<div class="icon"></div>
-				<div class="tag"></div>
-			</div>
-			<div class="mine">
-				<div class="icon"></div>
-				<div class="tag"></div>
-			</div>
+			<a class="item index">
+				<div class="item icon active"></div>
+				<div class="item tag active">首页</div>
+			</a>
+			<a class="item job" href="job.html">
+				<div class="item icon"></div>
+				<div class="item tag">工作履历</div>
+			</a>
+			<a class="item evaluate" href="evaluate.html">
+				<div class="item icon"></div>
+				<div class="item tag">用工评价</div>
+			</a>
+			<a class="item mine" href="mine.html">
+				<div class="item icon"></div>
+				<div class="item tag">我的</div>
+			</a>
 		</div>
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>

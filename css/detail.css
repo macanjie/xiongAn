@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width: 10.04rem;
+	height: 1.27rem;
+	background-color: #fafafa;
+	left:0;
+	top:0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .title{
+	width: auto;
+	height: 0.5rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	text-align: center;
+	line-height: 0.45rem;
+	line-height: 1;
+}
+.header .icon{
+	background-image: url(../img/index/雄安实名制移动端_首页_11.png);
+	transform: rotateY(180deg);
+	width: 0.18rem;
+	height: 0.31rem;
+	background-size: 100% 100%;
+	position: absolute;
+	top:0.58rem;
+	left: 0.26rem;
+}
+.header .back{
+	width: auto;
+	height: 0.35rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.38rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #444444;	
+	position: absolute;
+	top: 0.56rem;
+	left: 0.57rem;
+	line-height: 1;
+}

@@ -1,0 +1,77 @@
+.headImage{
+	width: 10.04rem;
+	height: 4.46rem;
+	background-color: #fafafa;
+	position: relative;
+	margin-bottom: 0.44rem;
+}
+.headImage .image{
+	width: 2.06rem;
+	height: 2.06rem;
+	background-image: url(../img/mine/雄安实名制移动端_头像_03.png);
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: 1.46rem;
+	left: 3.99rem;
+}
+.headImage .name{
+	width: auto;
+	height: 0.49rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #565656;
+	line-height: 1;
+	position: absolute;
+	left: 3.72rem;
+	bottom: 0.58rem;
+}
+.headImage .gender{
+	width: auto;
+	height: 0.49rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #565656;
+	line-height: 1;
+	position: absolute;
+	right: 3.77rem;
+	bottom: 0.58rem;
+}
+.itemList .item{
+	width: 10.04rem;
+	height: 0.99rem;
+	background-color: #f7f7f7;
+	color: #565656;
+	font-size: 0.38rem;
+	margin-bottom: 0.11rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.31rem 0.46rem 0.31rem 0.48rem;
+	align-items: center;
+	line-height: 1;
+}
+.quit{
+	width: 10.04rem;
+	height: 1rem;
+	background-color: #f7f7f7;
+	position: absolute;
+	top: 13.78rem;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	font-size: 0.42rem;
+}
+.quit a{
+	color: #636363;
+}
+
+.bottom .item .item.icon.active{
+	background-image: url(../img/mine/雄安实名制移动端_头像_07.png);
+}

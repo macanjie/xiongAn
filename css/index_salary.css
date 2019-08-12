@@ -1,0 +1,163 @@
+body{
+	position: relative;
+}
+.search{
+	width: 10.04rem;
+	height: 1.34rem;
+	background-color: #fafafa;
+	margin-bottom: 0.56rem;
+	position: relative;
+}
+.search #search{
+	width: 9.54rem;
+	height: 0.82rem;
+	background-color: #e5e5e5;
+	border-radius: 0.41rem;
+	position: absolute;
+	left: 0.26rem;
+	bottom: 0.37rem;
+	border: none;
+	padding-left: 0.72rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.33rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #878787;
+	opacity: 0.7;
+}
+.search .iconSearch{
+	width: 0.32rem;
+	height: 0.32rem;
+	background-image: url(../img/index_salary/雄安实名制移动端_工资列表_06.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 0.53rem;
+	bottom: 0.62rem;
+}
+.search .iconMonth{
+	width: 0.34rem;
+	height: 0.37rem;
+	background-image: url(../img/index_salary/雄安实名制移动端_工资列表_03.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: 0.73rem;
+	bottom: 0.59rem;
+}
+.itemList{
+	width: 10.04rem;
+	height: auto;
+}
+.itemList .item{
+	width: 9.54rem;
+	height: 2.45rem;
+	margin:0 0.25rem 0.6rem 0.25rem;
+	position: relative;
+}
+.itemList .item .date{
+	position: absolute;
+	top: 0;
+	left: 3.37rem;
+	width: auto;
+	height: 0.14rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.17rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	line-height: 1;
+}
+.itemList .item .detail{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 9.54rem;
+	height: 2.07rem;
+	background-color: #f7f7f7;
+	border-radius: 0.06rem;
+	box-shadow: 0 0 0.05rem 0.05rem #eee;
+}
+.itemList .item .detail .money{
+	width: auto;
+	height: 0.38rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.42rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #b22329;
+	position: absolute;
+	top: 0.45rem;
+	left: 0.41rem;
+	line-height: 1;
+}
+.itemList .item .detail .iconInAccount{
+	width: 0.58rem;
+	height: 0.67rem;
+	background-image: url(../img/index_salary/雄安实名制移动端_工资列表_11.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.25rem;
+	right: 0.37rem;
+}
+.itemList .item .detail .separator{
+	width: 9.54rem;
+	height: 0.021rem;
+	background-color: #6e6e6e;
+	border-radius: 0.01rem;
+	position: absolute;
+	top: 1.18rem;
+	left: 0;
+}
+.itemList .item .detail .month{
+	width: auto;
+	height: 0.24rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	position: absolute;
+	bottom: 0.3rem;
+	left: 0.43rem;
+	line-height: 1;
+}
+.itemList .item .detail .more{
+	width: auto;
+	height: 0.29rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #969696;
+	line-height: 1;
+	position: absolute;
+	top: 1.5rem;
+	right: 0.8rem;
+}
+.itemList .item .detail .iconMore{
+	width: 0.21rem;
+	height: 0.36rem;
+	background-image: url(../img/index/雄安实名制移动端_首页_11.png);
+	background-size: 100% 100%;
+	position: absolute;
+	top: 1.47rem;
+	right: 0.41rem;
+}
+.bottom{
+	width: auto;
+	height: 0.21rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.21rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #737070;
+	position: absolute;
+	left: 4.69rem;
+	bottom: 0.1rem;
+	line-height: 0.5;
+}

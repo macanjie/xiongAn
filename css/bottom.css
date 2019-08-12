@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+}
+a{
+	text-decoration: none;
+}
+
+.header{
+	width: 10.04rem;
+	height: 1.27rem;
+	background-color: #fafafa;
+	left:0;
+	top:0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header .title{
+	width: auto;
+	height: 0.5rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.5rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #393939;
+	text-align: center;
+	line-height: 0.45rem;
+	line-height: 1;
+	opacity: 0.8;
+}
+.bottom{
+	width: 10.04rem;
+	height: 1.21rem;
+	background-color: #f7f7f7;
+	box-shadow: 0rem 0rem 0.21rem 0rem 
+		rgba(44, 44, 44, 0.38);	
+	padding: 0.21rem 1.1rem 0.13rem 1rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .item{
+	height: 0.87rem;
+	width: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.bottom .item .item.icon{
+	width: 0.42rem;
+	height: 0.44rem;
+	color: #6e6e6e;
+	background-size: 100% 100%;
+}
+.bottom .item .item.tag{
+	width: auto;
+	height: 0.29rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.29rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #6e6e6e;
+}
+.bottom .item .item.tag.active{
+	color: #b22329;		
+}
+.bottom .item.job .item{
+	width: 1.2rem;
+}
+.bottom .item.job .item.icon{
+	width: 0.42rem;
+}
+.bottom .item.job .item.tag{
+	width: 1.2rem;
+}
+.bottom .item.evaluate .item{
+	width: 1.2rem;
+}
+.bottom .item.evaluate .item.icon{
+	width: 0.42rem;
+}
+.bottom .item.evaluate .item.tag{
+	width: 1.2rem;
+}
+.bottom .item.index .item.icon{
+	background-image: url(../img/job/雄安实名制移动端_工作履历_详情_首页_07.png);
+}
+.bottom .item.job .item.icon{
+	background-image: url(../img/index/雄安实名制移动端_首页_31.png);
+}
+.bottom .item.evaluate .item.icon{
+	background-image: url(../img/index/雄安实名制移动端_首页_04.png);
+}
+.bottom .item.mine .item.icon{
+	background-image: url(../img/index/雄安实名制移动端_首页_35.png);
+}
